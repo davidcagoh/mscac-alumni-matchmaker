@@ -11,7 +11,7 @@ def rebuild():
     )
 
     # Load metadata (must be committed to repo)
-    with open("data/others/projects_metadata.pkl", "rb") as f:
+    with open("data/projects_metadata.pkl", "rb") as f:
         metadata = pickle.load(f)
 
     docs = [m.get("internship_title_(aria)", "") for m in metadata]

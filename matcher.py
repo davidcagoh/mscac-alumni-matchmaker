@@ -6,7 +6,7 @@ if not os.path.exists("data/chroma_db/chroma.sqlite3"):
     import build_chroma
     build_chroma.rebuild()
 
-chromadb.config.settings["telemetry_enabled"] = False
+# chromadb.config.settings["telemetry_enabled"] = False
 
 client = chromadb.PersistentClient(path="data/chroma_db")
 collection = client.get_collection("mscac_projects")

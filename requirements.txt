@@ -1,0 +1,6 @@
+streamlit
+chromadb==0.5.3
+sentence-transformers
+faiss-cpu
+torch
+numpy

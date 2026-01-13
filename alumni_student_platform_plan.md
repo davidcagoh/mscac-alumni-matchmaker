@@ -32,8 +32,8 @@ Current methods for student-alumni outreach face significant hurdles that this p
 
 ### Load Balancing & Monitoring
 
-- **Request Caps**: Limit the number of active requests per alumnus.
-- **Queue Management**: Rotate or delay requests if an alumnus is overloaded.
+- **Request Caps**: Limit the number of active requests per alumnus (e.g., 1–2/week).
+- **Queue Management**: Rotate or delay requests if an alumnus is overloaded to prevent burnout.
 - **Staff Oversight**: All sent requests are archived for monitoring without exposing private details.
 
 ---
@@ -64,7 +64,7 @@ Current methods for student-alumni outreach face significant hurdles that this p
 - **Ongoing Maintenance**:
   - Technical: Monitor logs, semi-annual data refresh (2–4 hours/month).
   - Administrative: Review dashboards, coordinate with communications team.
-- **Handover Plan**: Modular design for IT lead or future student lead with minimal specialized training.
+- **Initial Ownership**: The platform will be managed by a dedicated technical owner (student/staff program assistant) for the first 3-6 months to validate matching logic, monitor engagement, and ensure system stability before any transition to IT-managed maintenance. Codebase design will be modular for IT lead or future student lead with minimal specialized training.
 
 ---
 
@@ -72,6 +72,7 @@ Current methods for student-alumni outreach face significant hurdles that this p
 - **Peer Matching**: Connect incoming students with current students.
 - **Automated Mentorship**: Match based on undergraduate backgrounds or research interests.
 - **Seasonal Activation**: Toggle "on" during summer onboarding and "off" during academic year.
+- This leverages the exactly the same backend and matching infrastructure, enabling a scalable two-track engagement system while minimizing additional technical effort.
 
 ---
 
@@ -79,4 +80,4 @@ Current methods for student-alumni outreach face significant hurdles that this p
 - **Scope Approval**: Confirm prioritized launch of the Alumni Track.
 - **IT Consultation**: Review hosting and domain requirements.
 - **Timeline Alignment**: Define target dates for Phase 1 Pilot.
-
+- **Alumni Opt-in**: Communications should clearly state that participation is voluntary and alumni data is never shared without consent.
